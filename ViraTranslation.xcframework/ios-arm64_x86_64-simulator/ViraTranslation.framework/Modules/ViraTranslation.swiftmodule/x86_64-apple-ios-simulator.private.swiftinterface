@@ -1,0 +1,75 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target x86_64-apple-ios18.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name ViraTranslation
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1
+import Combine
+import Foundation
+import Swift
+import SwiftUI
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class VitraTranslator : Combine.ObservableObject {
+  public static let shared: ViraTranslation.VitraTranslator
+  @Combine.Published @_projectedValueProperty($availableLanguages) public var availableLanguages: [Swift.String] {
+    get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    _modify
+  }
+  public var $availableLanguages: Combine.Published<[Swift.String]>.Publisher {
+    get
+    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+    set
+  }
+  @Combine.Published @_projectedValueProperty($currentLanguage) public var currentLanguage: Swift.String {
+    get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    _modify
+  }
+  public var $currentLanguage: Combine.Published<Swift.String>.Publisher {
+    get
+    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+    set
+  }
+  public func configure(apiKey: Swift.String, glossaryId: Swift.String?)
+  public func loadAvailableLanguagesFromAssets()
+  public func setLanguage(_ language: Swift.String)
+  public func restoreLastUsedLanguage()
+  public func localize(key: Swift.String) -> Swift.String
+  public var isRTLLanguage: Swift.Bool {
+    get
+  }
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
+}
+public enum VitraLanguageUIMode {
+  case picker
+  case menu
+  public static func == (a: ViraTranslation.VitraLanguageUIMode, b: ViraTranslation.VitraLanguageUIMode) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_Concurrency.MainActor @preconcurrency public struct VitraLanguageSelector : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(translator: ViraTranslation.VitraTranslator, mode: ViraTranslation.VitraLanguageUIMode = .menu)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s15ViraTranslation21VitraLanguageSelectorV4bodyQrvp", 0) __
+}
+@_Concurrency.MainActor @preconcurrency public struct VitraRootView<Content> : SwiftUICore.View where Content : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(translator: ViraTranslation.VitraTranslator = .shared, @SwiftUICore.ViewBuilder content: @escaping () -> Content)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s15ViraTranslation13VitraRootViewV4bodyQrvp", 0) __<Content>
+}
+extension ViraTranslation.VitraLanguageUIMode : Swift.Equatable {}
+extension ViraTranslation.VitraLanguageUIMode : Swift.Hashable {}
+extension ViraTranslation.VitraLanguageSelector : Swift.Sendable {}
+extension ViraTranslation.VitraRootView : Swift.Sendable {}

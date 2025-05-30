@@ -1,0 +1,1361 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "ViraTranslation",
+    "printedName": "ViraTranslation",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ViraTranslation"
+      },
+      {
+        "kind": "Import",
+        "name": "ViraTranslation",
+        "printedName": "ViraTranslation",
+        "declKind": "Import",
+        "moduleName": "ViraTranslation"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VitraRootView",
+        "printedName": "VitraRootView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(translator:content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VitraRootView",
+                "printedName": "ViraTranslation.VitraRootView<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:15ViraTranslation13VitraRootViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VitraTranslator",
+                "printedName": "ViraTranslation.VitraTranslator",
+                "hasDefaultArg": true,
+                "usr": "s:15ViraTranslation15VitraTranslatorC"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15ViraTranslation13VitraRootViewV10translator7contentACyxGAA0C10TranslatorC_xyctcfc",
+            "mangledName": "$s15ViraTranslation13VitraRootViewV10translator7contentACyxGAA0C10TranslatorC_xyctcfc",
+            "moduleName": "ViraTranslation",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15ViraTranslation13VitraRootViewV4bodyQrvp",
+            "mangledName": "$s15ViraTranslation13VitraRootViewV4bodyQrvp",
+            "moduleName": "ViraTranslation",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15ViraTranslation13VitraRootViewV4bodyQrvg",
+                "mangledName": "$s15ViraTranslation13VitraRootViewV4bodyQrvg",
+                "moduleName": "ViraTranslation",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15ViraTranslation13VitraRootViewV",
+        "mangledName": "$s15ViraTranslation13VitraRootViewV",
+        "moduleName": "ViraTranslation",
+        "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+        "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "ViraTranslation"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ViraTranslation"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VitraTranslator",
+        "printedName": "VitraTranslator",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VitraTranslator",
+                "printedName": "ViraTranslation.VitraTranslator",
+                "usr": "s:15ViraTranslation15VitraTranslatorC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15ViraTranslation15VitraTranslatorC6sharedACvpZ",
+            "mangledName": "$s15ViraTranslation15VitraTranslatorC6sharedACvpZ",
+            "moduleName": "ViraTranslation",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VitraTranslator",
+                    "printedName": "ViraTranslation.VitraTranslator",
+                    "usr": "s:15ViraTranslation15VitraTranslatorC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15ViraTranslation15VitraTranslatorC6sharedACvgZ",
+                "mangledName": "$s15ViraTranslation15VitraTranslatorC6sharedACvgZ",
+                "moduleName": "ViraTranslation",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "availableLanguages",
+            "printedName": "availableLanguages",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15ViraTranslation15VitraTranslatorC18availableLanguagesSaySSGvp",
+            "mangledName": "$s15ViraTranslation15VitraTranslatorC18availableLanguagesSaySSGvp",
+            "moduleName": "ViraTranslation",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15ViraTranslation15VitraTranslatorC18availableLanguagesSaySSGvg",
+                "mangledName": "$s15ViraTranslation15VitraTranslatorC18availableLanguagesSaySSGvg",
+                "moduleName": "ViraTranslation",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15ViraTranslation15VitraTranslatorC18availableLanguagesSaySSGvs",
+                "mangledName": "$s15ViraTranslation15VitraTranslatorC18availableLanguagesSaySSGvs",
+                "moduleName": "ViraTranslation",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15ViraTranslation15VitraTranslatorC18availableLanguagesSaySSGvM",
+                "mangledName": "$s15ViraTranslation15VitraTranslatorC18availableLanguagesSaySSGvM",
+                "moduleName": "ViraTranslation",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$availableLanguages",
+            "printedName": "$availableLanguages",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Array<Swift.String>>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15ViraTranslation15VitraTranslatorC19$availableLanguages7Combine9PublishedV9PublisherVySaySSG_Gvp",
+            "mangledName": "$s15ViraTranslation15VitraTranslatorC19$availableLanguages7Combine9PublishedV9PublisherVySaySSG_Gvp",
+            "moduleName": "ViraTranslation",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Array<Swift.String>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15ViraTranslation15VitraTranslatorC19$availableLanguages7Combine9PublishedV9PublisherVySaySSG_Gvg",
+                "mangledName": "$s15ViraTranslation15VitraTranslatorC19$availableLanguages7Combine9PublishedV9PublisherVySaySSG_Gvg",
+                "moduleName": "ViraTranslation",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Array<Swift.String>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15ViraTranslation15VitraTranslatorC19$availableLanguages7Combine9PublishedV9PublisherVySaySSG_Gvs",
+                "mangledName": "$s15ViraTranslation15VitraTranslatorC19$availableLanguages7Combine9PublishedV9PublisherVySaySSG_Gvs",
+                "moduleName": "ViraTranslation",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15ViraTranslation15VitraTranslatorC19$availableLanguages7Combine9PublishedV9PublisherVySaySSG_GvM",
+                "mangledName": "$s15ViraTranslation15VitraTranslatorC19$availableLanguages7Combine9PublishedV9PublisherVySaySSG_GvM",
+                "moduleName": "ViraTranslation",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currentLanguage",
+            "printedName": "currentLanguage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15ViraTranslation15VitraTranslatorC15currentLanguageSSvp",
+            "mangledName": "$s15ViraTranslation15VitraTranslatorC15currentLanguageSSvp",
+            "moduleName": "ViraTranslation",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15ViraTranslation15VitraTranslatorC15currentLanguageSSvg",
+                "mangledName": "$s15ViraTranslation15VitraTranslatorC15currentLanguageSSvg",
+                "moduleName": "ViraTranslation",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15ViraTranslation15VitraTranslatorC15currentLanguageSSvs",
+                "mangledName": "$s15ViraTranslation15VitraTranslatorC15currentLanguageSSvs",
+                "moduleName": "ViraTranslation",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15ViraTranslation15VitraTranslatorC15currentLanguageSSvM",
+                "mangledName": "$s15ViraTranslation15VitraTranslatorC15currentLanguageSSvM",
+                "moduleName": "ViraTranslation",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$currentLanguage",
+            "printedName": "$currentLanguage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.String>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15ViraTranslation15VitraTranslatorC16$currentLanguage7Combine9PublishedV9PublisherVySS_Gvp",
+            "mangledName": "$s15ViraTranslation15VitraTranslatorC16$currentLanguage7Combine9PublishedV9PublisherVySS_Gvp",
+            "moduleName": "ViraTranslation",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.String>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15ViraTranslation15VitraTranslatorC16$currentLanguage7Combine9PublishedV9PublisherVySS_Gvg",
+                "mangledName": "$s15ViraTranslation15VitraTranslatorC16$currentLanguage7Combine9PublishedV9PublisherVySS_Gvg",
+                "moduleName": "ViraTranslation",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.String>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15ViraTranslation15VitraTranslatorC16$currentLanguage7Combine9PublishedV9PublisherVySS_Gvs",
+                "mangledName": "$s15ViraTranslation15VitraTranslatorC16$currentLanguage7Combine9PublishedV9PublisherVySS_Gvs",
+                "moduleName": "ViraTranslation",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15ViraTranslation15VitraTranslatorC16$currentLanguage7Combine9PublishedV9PublisherVySS_GvM",
+                "mangledName": "$s15ViraTranslation15VitraTranslatorC16$currentLanguage7Combine9PublishedV9PublisherVySS_GvM",
+                "moduleName": "ViraTranslation",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(apiKey:glossaryId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15ViraTranslation15VitraTranslatorC9configure6apiKey10glossaryIdySS_SSSgtF",
+            "mangledName": "$s15ViraTranslation15VitraTranslatorC9configure6apiKey10glossaryIdySS_SSSgtF",
+            "moduleName": "ViraTranslation",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadAvailableLanguagesFromAssets",
+            "printedName": "loadAvailableLanguagesFromAssets()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15ViraTranslation15VitraTranslatorC32loadAvailableLanguagesFromAssetsyyF",
+            "mangledName": "$s15ViraTranslation15VitraTranslatorC32loadAvailableLanguagesFromAssetsyyF",
+            "moduleName": "ViraTranslation",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setLanguage",
+            "printedName": "setLanguage(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15ViraTranslation15VitraTranslatorC11setLanguageyySSF",
+            "mangledName": "$s15ViraTranslation15VitraTranslatorC11setLanguageyySSF",
+            "moduleName": "ViraTranslation",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "restoreLastUsedLanguage",
+            "printedName": "restoreLastUsedLanguage()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15ViraTranslation15VitraTranslatorC23restoreLastUsedLanguageyyF",
+            "mangledName": "$s15ViraTranslation15VitraTranslatorC23restoreLastUsedLanguageyyF",
+            "moduleName": "ViraTranslation",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "localize",
+            "printedName": "localize(key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15ViraTranslation15VitraTranslatorC8localize3keyS2S_tF",
+            "mangledName": "$s15ViraTranslation15VitraTranslatorC8localize3keyS2S_tF",
+            "moduleName": "ViraTranslation",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "isRTLLanguage",
+            "printedName": "isRTLLanguage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15ViraTranslation15VitraTranslatorC13isRTLLanguageSbvp",
+            "mangledName": "$s15ViraTranslation15VitraTranslatorC13isRTLLanguageSbvp",
+            "moduleName": "ViraTranslation",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15ViraTranslation15VitraTranslatorC13isRTLLanguageSbvg",
+                "mangledName": "$s15ViraTranslation15VitraTranslatorC13isRTLLanguageSbvg",
+                "moduleName": "ViraTranslation",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15ViraTranslation15VitraTranslatorC",
+        "mangledName": "$s15ViraTranslation15VitraTranslatorC",
+        "moduleName": "ViraTranslation",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ViraTranslation"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VitraLanguageUIMode",
+        "printedName": "VitraLanguageUIMode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "picker",
+            "printedName": "picker",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ViraTranslation.VitraLanguageUIMode.Type) -> ViraTranslation.VitraLanguageUIMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VitraLanguageUIMode",
+                    "printedName": "ViraTranslation.VitraLanguageUIMode",
+                    "usr": "s:15ViraTranslation19VitraLanguageUIModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ViraTranslation.VitraLanguageUIMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VitraLanguageUIMode",
+                        "printedName": "ViraTranslation.VitraLanguageUIMode",
+                        "usr": "s:15ViraTranslation19VitraLanguageUIModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15ViraTranslation19VitraLanguageUIModeO6pickeryA2CmF",
+            "mangledName": "$s15ViraTranslation19VitraLanguageUIModeO6pickeryA2CmF",
+            "moduleName": "ViraTranslation"
+          },
+          {
+            "kind": "Var",
+            "name": "menu",
+            "printedName": "menu",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ViraTranslation.VitraLanguageUIMode.Type) -> ViraTranslation.VitraLanguageUIMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VitraLanguageUIMode",
+                    "printedName": "ViraTranslation.VitraLanguageUIMode",
+                    "usr": "s:15ViraTranslation19VitraLanguageUIModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ViraTranslation.VitraLanguageUIMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VitraLanguageUIMode",
+                        "printedName": "ViraTranslation.VitraLanguageUIMode",
+                        "usr": "s:15ViraTranslation19VitraLanguageUIModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15ViraTranslation19VitraLanguageUIModeO4menuyA2CmF",
+            "mangledName": "$s15ViraTranslation19VitraLanguageUIModeO4menuyA2CmF",
+            "moduleName": "ViraTranslation"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VitraLanguageUIMode",
+                "printedName": "ViraTranslation.VitraLanguageUIMode",
+                "usr": "s:15ViraTranslation19VitraLanguageUIModeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VitraLanguageUIMode",
+                "printedName": "ViraTranslation.VitraLanguageUIMode",
+                "usr": "s:15ViraTranslation19VitraLanguageUIModeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15ViraTranslation19VitraLanguageUIModeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s15ViraTranslation19VitraLanguageUIModeO2eeoiySbAC_ACtFZ",
+            "moduleName": "ViraTranslation",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15ViraTranslation19VitraLanguageUIModeO9hashValueSivp",
+            "mangledName": "$s15ViraTranslation19VitraLanguageUIModeO9hashValueSivp",
+            "moduleName": "ViraTranslation",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15ViraTranslation19VitraLanguageUIModeO9hashValueSivg",
+                "mangledName": "$s15ViraTranslation19VitraLanguageUIModeO9hashValueSivg",
+                "moduleName": "ViraTranslation",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15ViraTranslation19VitraLanguageUIModeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s15ViraTranslation19VitraLanguageUIModeO4hash4intoys6HasherVz_tF",
+            "moduleName": "ViraTranslation",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15ViraTranslation19VitraLanguageUIModeO",
+        "mangledName": "$s15ViraTranslation19VitraLanguageUIModeO",
+        "moduleName": "ViraTranslation",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VitraLanguageSelector",
+        "printedName": "VitraLanguageSelector",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(translator:mode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VitraLanguageSelector",
+                "printedName": "ViraTranslation.VitraLanguageSelector",
+                "usr": "s:15ViraTranslation21VitraLanguageSelectorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VitraTranslator",
+                "printedName": "ViraTranslation.VitraTranslator",
+                "usr": "s:15ViraTranslation15VitraTranslatorC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VitraLanguageUIMode",
+                "printedName": "ViraTranslation.VitraLanguageUIMode",
+                "hasDefaultArg": true,
+                "usr": "s:15ViraTranslation19VitraLanguageUIModeO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15ViraTranslation21VitraLanguageSelectorV10translator4modeAcA0C10TranslatorC_AA0cD6UIModeOtcfc",
+            "mangledName": "$s15ViraTranslation21VitraLanguageSelectorV10translator4modeAcA0C10TranslatorC_AA0cD6UIModeOtcfc",
+            "moduleName": "ViraTranslation",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15ViraTranslation21VitraLanguageSelectorV4bodyQrvp",
+            "mangledName": "$s15ViraTranslation21VitraLanguageSelectorV4bodyQrvp",
+            "moduleName": "ViraTranslation",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15ViraTranslation21VitraLanguageSelectorV4bodyQrvg",
+                "mangledName": "$s15ViraTranslation21VitraLanguageSelectorV4bodyQrvg",
+                "moduleName": "ViraTranslation",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15ViraTranslation21VitraLanguageSelectorV",
+        "mangledName": "$s15ViraTranslation21VitraLanguageSelectorV",
+        "moduleName": "ViraTranslation",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/sounakdas\/Desktop\/XCODE\/ViraTranslation\/ViraTranslation\/ViraTranslationSDK.swift",
+      "kind": "Array",
+      "offset": 508,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sounakdas\/Desktop\/XCODE\/ViraTranslation\/ViraTranslation\/ViraTranslationSDK.swift",
+      "kind": "Array",
+      "offset": 559,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sounakdas\/Desktop\/XCODE\/ViraTranslation\/ViraTranslation\/ViraTranslationSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 615,
+      "length": 9,
+      "value": "\"english\""
+    },
+    {
+      "filePath": "\/Users\/sounakdas\/Desktop\/XCODE\/ViraTranslation\/ViraTranslation\/ViraTranslationSDK.swift",
+      "kind": "Dictionary",
+      "offset": 685,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sounakdas\/Desktop\/XCODE\/ViraTranslation\/ViraTranslation\/ViraTranslationSDK.swift",
+      "kind": "Dictionary",
+      "offset": 745,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sounakdas\/Desktop\/XCODE\/ViraTranslation\/ViraTranslation\/ViraTranslationSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19684,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}

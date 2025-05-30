@@ -1,0 +1,23 @@
+# Build artifacts
+build/
+Sources/
+Tests/
+VitraTranslation/
+DerivedData/
+*.xcresult
+
+# Xcode user-specific settings
+*.xcuserstate
+*.xcworkspace
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# SwiftPM
+/.swiftpm/xcode/package.xcworkspace/
+.swiftpm/
+.packages/
+Package.resolved
+
+# Misc
+*.DS_Store
+*.zip
