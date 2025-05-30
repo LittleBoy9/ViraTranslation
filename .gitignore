@@ -3,6 +3,7 @@ build/
 VitraTranslation/
 DerivedData/
 *.xcresult
+*.xcodeproj
 
 # Xcode user-specific settings
 *.xcuserstate
